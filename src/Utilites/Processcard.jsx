@@ -3,13 +3,13 @@ import { FaCircle } from "react-icons/fa";
 
 function Processcard({ item, index }) {
   return (
-    <li className="bg-[#ffffff] px-5 py-12 w-[350px] shrink-0">
+    <li className="bg-[#ffffff] px-5 py-8 ">
       <div className="">
         <span className="text-[#7e7e81] font-medium text-[1.5rem]">
           {item.id}
         </span>
       </div>
-      <div className=" mt-16">
+      <div className=" mt-10">
         <h1 className="text-[1.625rem] font-bold text-[#1b1b1b] mb-2">
           {item.head}
         </h1>
