@@ -23,9 +23,10 @@ function Hero() {
       <div className="container px-2 mx-auto max-sm:px-2">
         <div className="main  flex max-sm:flex-col md:flex-col lg:flex-row justify-between items-center mt-10 md:mb-15 max-sm:mb-7 ">
           <div className="lft">
-
             <h1 className="text-[56px] max-sm:text-[32px] font-bold text-[#1b1b1b] leading-tight max-sm:mb-6 mb-10">
-              Global Website design<br className=" max-sm:hidden" /> agency digital partner<br className=" max-sm:hidden" /> for{" "}
+              Global Website design
+              <br className=" max-sm:hidden" /> agency digital partner
+              <br className=" max-sm:hidden" /> for{" "}
               <span className="inline-block relative">
                 <AnimatePresence mode="wait">
                   <motion.span
@@ -58,7 +59,10 @@ function Hero() {
                 </a>
               </div>
 
-              <a href="https://www.goodfirms.co/company/msty-enterprises " target="_blank">
+              <a
+                href="https://www.goodfirms.co/company/msty-enterprises "
+                target="_blank"
+              >
                 <div className="rev flex max-sm:gap-8 gap-4">
                   <div className="frs">
                     <h5 className="text-[#6a797e] text-[12px] mb-[3px] font-normal tracking-wide">
@@ -76,7 +80,6 @@ function Hero() {
                 </div>
               </a>
             </div>
-
           </div>
 
           <div className="rgt max-sm:w-full md:w-8/12 md:mt-12  max-sm:mt-10 lg:w-3/10 bg-[#e1e1e1] rounded-2xl max-sm:mx-5 py-7 px-7">

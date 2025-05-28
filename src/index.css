@@ -91,3 +91,9 @@ html {
 .animate-spin-slow {
   animation: spin-slow 20s linear infinite;
 }
+
+
+.serv {position: relative; overflow: clip; }
+.serv li{position: sticky; top:0}
+
+

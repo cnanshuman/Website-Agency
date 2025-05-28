@@ -21,4 +21,40 @@ export const data=[
         date:"January 2, 2025",
 
     },
+    {
+        img:img1,
+        head:"The Role of Color Psychology in Branding",
+        date:"January 2, 2025",
+
+    },
+    {
+        img:img2,
+        head:"The Role of Color Psychology in Branding",
+        date:"January 2, 2025",
+
+    },
+    {
+        img:img3,
+        head:"The Role of Color Psychology in Branding",
+        date:"January 2, 2025",
+
+    },
+    {
+        img:img1,
+        head:"The Role of Color Psychology in Branding",
+        date:"January 2, 2025",
+
+    },
+    {
+        img:img2,
+        head:"The Role of Color Psychology in Branding",
+        date:"January 2, 2025",
+
+    },
+    {
+        img:img3,
+        head:"The Role of Color Psychology in Branding",
+        date:"January 2, 2025",
+
+    },
 ]

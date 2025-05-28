@@ -1,9 +1,10 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Blogcard({ item, index }) {
   return (
     <li className=' hover:bg-[#e1e1e1] group max-sm:w-full lg:w-8/25 md:w-2/5  rounded-2xl   '>
-      <a href="#">
+      <NavLink to={`/Blogs/${item.head}`}>
         <div className="img mb-6 overflow-hidden rounded-2xl group-hover:rounded-b-none">
           <img
             src={item.img}
@@ -20,7 +21,7 @@ function Blogcard({ item, index }) {
         </div>
 
 
-      </a>
+      </NavLink>
     </li>
   )
 }

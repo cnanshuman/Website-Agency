@@ -9,6 +9,9 @@ import Blogspage from "./Pages/Blogspage";
 import Careerspage from "./Pages/Careerspage";
 import Aboutpage from "./Pages/Aboutpage";
 import Contactpage from "./Pages/Contactpage";
+import Servicedetailpage from "./Pages/Servicedetailpage";
+import Blogsdetail from "./Component/Blogs/Blogsdetail";
+
 function App() {
   // Initialize Lenis
   const lenis = new Lenis({
@@ -21,18 +24,20 @@ function App() {
   });
   return (
     <>
-    <Router>
-      <Routes>
-        <Route element={<Mainlayput />}>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/About" element={<Aboutpage/>} />
-        <Route path="/Services" element={<Servicepage />} />
-        <Route path="/Portfolio" element={<Portfoliopage />} />
-        <Route path="/Blogs" element={<Blogspage/>} />
-        <Route path="/Careers" element={<Careerspage />} />
-        <Route path="/Contact" element={<Contactpage />} />
-        </Route>
-      </Routes>
+      <Router>
+        <Routes>
+          <Route element={<Mainlayput />}>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/About" element={<Aboutpage />} />
+            <Route path="/Services" element={<Servicepage />} />
+            <Route path="/Services/Uiux" element={<Servicedetailpage />} />
+            <Route path="/Portfolio" element={<Portfoliopage />} />
+            <Route path="/Blogs" element={<Blogspage />} />
+            <Route path="/Blogs/:Blog" element={<Blogsdetail />} />
+            <Route path="/Careers" element={<Careerspage />} />
+            <Route path="/Contact" element={<Contactpage />} />
+          </Route>
+        </Routes>
       </Router>
     </>
   );

@@ -28,7 +28,7 @@ const Faq = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
 
   return (
-    <div className="mx-auto p-6 bg-white w-full mb-16 p-2  ">
+    <div className="mx-auto p-6 bg-white w-full mb-16   ">
       <div className="container flex max-sm:flex-col mx-auto gap-9 items-center justify-between">
         <div className="lft">
           <h3 className=" text-[#121212] rounded-4xl w-fit text-[16px] mb-3 ">

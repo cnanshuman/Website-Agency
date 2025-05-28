@@ -1,10 +1,11 @@
 import React from 'react'
+import Blogs from '../Component/Blogs/Blogs'
 
 function Blogspage() {
   return (
-    <div>
-      <h1>Blogs</h1>
-    </div>
+    <>
+     <Blogs />   
+     </>
   )
 }
 
