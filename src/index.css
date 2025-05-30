@@ -94,7 +94,7 @@ margin:0 auto;
 }
 
 
-.serv {position: relative; overflow: clip; }
-.serv li{position: sticky; top:0}
+.servs {position: relative; overflow: clip; }
+.servs li{position: sticky; top:0}
 
 

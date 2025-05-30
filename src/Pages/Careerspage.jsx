@@ -1,9 +1,10 @@
 import React from 'react'
+import Career from '../Component/Career/Career'
 
 function Careerspage() {
   return (
     <div>
-      <h1>Careers</h1>
+     <Career />
     </div>
   )
 }

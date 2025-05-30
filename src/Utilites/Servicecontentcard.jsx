@@ -29,10 +29,10 @@ function Servicecontentcard({ item, index }) {
             <h1 className="text-[1.375rem] text-[#1b1b1b] font-semibold uppercase">
               {item.head2}
             </h1>
-            <ul className="text-[1.5rem]  max-sm:text-[20px]">
+            <ul className="  text-[1.5rem]  max-sm:text-[20px]">
               {item.list.map((item, index) => (
                 <li
-                  className="border-b-1 border-b-[#f0f0f0]  py-4 flex justify-between items-center"
+                  className=" border-b-1 border-b-[#f0f0f0]  py-4 flex justify-between items-center"
                   key={index}
                 >
                   <span>

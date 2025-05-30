@@ -12,7 +12,17 @@ function Abouts() {
             We create design for businesses with our
             <br className="max-sm:hidden md:hidden" /> elevated digital experiences
           </h1>
-          <img src={img} className="w-full max-sm:h-[320px] max-sm:rounded-xl object-cover h-auto mb-13" alt="About Us" />
+        <div className="relative mt-5 mb-10 overflow-hidden group shadow-lg transition-shadow duration-500 hover:shadow-2xl">
+                <img
+                  src={img}
+                  alt="About"
+                  className="w-full h-full max-sm:h-[320px] object-cover transform transition-transform duration-700 ease-in-out group-hover:scale-110 group-hover:brightness-90"
+                />
+                <div
+                  className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out bg-gradient-to-t from-black/80 via-black/40 to-transparent"
+                ></div>
+              
+              </div>
 
           <p className="text-[2.5rem] max-sm:text-[1.8rem] max-sm:leading-12 font-medium leading-[55px] md:max-w-[61.3125rem] text-[#121212] mb-15">
             Our secret sauce ensures scalability and attracts talented, creative

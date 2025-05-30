@@ -12,7 +12,7 @@ function UiServices() {
           for B2B to SaaS
         </h1>
       </div>
-      <ul className="  serv sticky top-0 ">
+      <ul className="  servs  ">
         {data.map((item, index) => (
           <Uicard Key={index} item={item} />
         ))}

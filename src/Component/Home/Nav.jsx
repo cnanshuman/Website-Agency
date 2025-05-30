@@ -5,11 +5,17 @@ import { HiOutlineMailOpen } from "react-icons/hi";
 import { GoArrowUpRight } from "react-icons/go";
 import { HiOutlineMenu, HiX } from "react-icons/hi";
 import { Link } from "react-router-dom";
-import logo from "/images/logo.png"; // Adjust path if needed
+import logo from "/images/footer-logo.svg"; // Adjust path if needed
 
 function Nav() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
+
+  // Function to close both mobile menu and services dropdown
+  const closeMenus = () => {
+    setIsMobileMenuOpen(false);
+    setIsServicesOpen(false);
+  };
 
   const Linkdata = [
     { id: 1, name: "Home", link: "/" },
@@ -129,7 +135,7 @@ function Nav() {
                           </h3>
                           <ul className="space-y-2">
                             {service.subServices.map((subService, subIndex) => (
-                              <li key={subIndex} className="  py-2">
+                              <li key={subIndex} className="py-2">
                                 <Link
                                   to={`/Services/${service.category
                                     .toLowerCase()
@@ -156,10 +162,10 @@ function Nav() {
           <div className="hidden md:flex">
             <Link
               to="/Contact"
-              className="flex items-center text-white gap-2 font-normal bg-[#1b1b1b] p-2 px-6 relative border border-neutral-700 transition-all duration-200 ease-in text-lg hover:text-black group overflow-hidden z-10   group   pr-6.5 get-in-touch-button "
+              className="flex items-center text-white gap-2 font-normal bg-[#1b1b1b] p-2 px-6 relative border border-neutral-700 transition-all duration-200 ease-in text-lg hover:text-black group overflow-hidden z-10 pr-6.5 get-in-touch-button"
             >
               <span>Contact Us</span>
-              <GoArrowUpRight className="w-[18px] h-[18px]" />              
+              <GoArrowUpRight className="w-[18px] h-[18px]" />
             </Link>
           </div>
 
@@ -183,9 +189,7 @@ function Nav() {
                     <Link
                       to={item.link}
                       className="hover:text-[#55d0ff] transition font-medium"
-                      onClick={() =>
-                        item.name !== "Services" && setIsMobileMenuOpen(false)
-                      }
+                      onClick={closeMenus} // Updated to use closeMenus
                     >
                       {item.name}
                     </Link>
@@ -215,11 +219,7 @@ function Nav() {
                                     .toLowerCase()
                                     .replace(" ", "-")}`}
                                   className="text-[14px] text-[#151515] hover:text-[#55d0ff] transition"
-                                  on
-                                  Click={() => {
-                                    setIsMobileMenuOpen(false);
-                                    setIsServicesOpen(false);
-                                  }}
+                                  onClick={closeMenus} // Updated to use closeMenus
                                 >
                                   {subService}
                                 </Link>
@@ -235,7 +235,7 @@ function Nav() {
               <Link
                 to="/Contact"
                 className="mt-6 flex items-center gap-2 bg-[#1b1b1b] text-white px-5 py-3 rounded-md hover:bg-[#55d0ff] hover:text-black transition duration-200 max-w-max"
-                onClick={() => setIsMobileMenuOpen(false)}
+                onClick={closeMenus} // Updated to use closeMenus
               >
                 Contact Us <GoArrowUpRight className="w-5 h-5" />
               </Link>

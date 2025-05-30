@@ -12,6 +12,8 @@ import Faqs from '../Component/Home/Faq'
 import Blog from '../Component/Home/Blog'
 import Contact from '../Component/Home/Contact'
 import Footer from '../Component/Home/Footer'
+import FallingText from '../Component/Home/Fallingtext'
+import Fallingcard from '../Utilites/Fallingcard'
 
 
 
@@ -22,6 +24,8 @@ function Homepage() {
       <Hero />
       <Logo />
       <Video />
+    <Fallingcard />
+      
       <About />
       <Service />
       <Project />

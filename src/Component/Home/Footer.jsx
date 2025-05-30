@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "/images/footer-logo.png";
+import img1 from "/images/footer-logo.svg";
 
 function Footer() {
   
@@ -71,9 +71,9 @@ function Footer() {
           {/* Logo + Description + Social */}
           <div>
             <a href="#">
-              <img src={img1} alt="Mysty Enterprises" className="mb-6 " />
+              <img src={img1} alt="Mysty Enterprises" className=" w-[100px] h-[100px]" />
             </a>
-            <p className="text-[16px] leading-relaxed text-[#a1a1a1] mb-4">
+            <p className="text-[16px] leading-relaxed text-[#a1a1a1]">
               Mysty Enterprise is a global UI/UX design agency that boosts brand
               value with user-friendly, effective designs for web, mobile, and SaaS platforms.
             </p>

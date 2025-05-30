@@ -6,7 +6,7 @@ import inner from "/images/innr.jpg";
 
 function Success() {
   return (
-    <section className="py-16 px-4">
+    <section className="py-16 px-4 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         {/* Headings */}
         <div className="mb-8">
