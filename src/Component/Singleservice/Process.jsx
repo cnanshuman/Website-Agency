@@ -1,8 +1,18 @@
 import React, { useRef } from "react";
 import Processcard from "../../Utilites/Processcard";
 import { data } from "../../Store/Processdata";
+import { useStore } from "../../Store/Store";
+import { useParams } from "react-router-dom";
 
 function Process() {
+
+  const { servicesdata } = useStore();
+  const { service } = useParams();
+
+  const data = servicesdata[service].process; 
+
+
+  
   return (
     <>
       <div className="bg-[#f2f2f2] py-2 my-20 max-sm:px-2 lg:p-2 pt-[63px] max-sm:pt-[30px] ">

@@ -21,7 +21,7 @@ function Nav() {
     { id: 1, name: "Home", link: "/" },
     { id: 2, name: "About", link: "/About" },
     { id: 3, name: "Services", link: "/Services" },
-    { id: 4, name: "Portfolio", link: "/Services/uiux" },
+    { id: 4, name: "Portfolio", link: "/Portfolio" },
     { id: 5, name: "Blogs", link: "/Blogs" },
     { id: 6, name: "Careers", link: "/Careers" },
   ];

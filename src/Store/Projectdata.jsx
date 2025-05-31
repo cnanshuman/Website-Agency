@@ -1,66 +1,56 @@
+import img1 from '/images/proj-1.jpg';
+import lnk1 from '/images/project-1.jpg'
+import img2 from '/images/door-2.jpg';
+import lnk2 from '/images/project-2.jpg';
+import img3 from '/images/proj-3.jpg';
+import lnk3 from '/images/project-3.jpg'
+import img4 from '/images/proj-4.jpg'
+import lnk4 from '/images/door-3.jpg'
 
+import img5 from '/images/proj-5.jpg'
+import lnk5 from '/images/rendrly.png'
+
+import img6 from '/images/care.jpg'
 
 
 export const data=[
     {
-        img:"https://framerusercontent.com/images/J9LjAN1cLt2hbRm1CX1IlnMRdQ8.jpg?scale-down-to=512",
-        name: "Buzzfeed",
+        link:lnk1,
+        img:img1,
+        name: "Lawyer",
        
     },
-    {
-        img:"https://framerusercontent.com/images/NaKqa7E3Y0r8TqlpTkFmsSgoCk.jpg?scale-down-to=512",
-        name: "Retro Inspired Product",
+    {   link:lnk2,
+        img:img2,
+        name: "Door",
       
     },
     {
-        img:"https://framerusercontent.com/images/LdKZ4wZnD9wtqPY8N1IlFcWGTs.jpg?scale-down-to=512",
-        name: "Buzzfeed",
+        link:lnk3,
+        img:img3,
+        name: "Parlour",
       
     },
     {
-        img:"https://framerusercontent.com/images/KEJyaIxQVH9LCyqzSgXSwEoMHE.jpg?scale-down-to=512",
+        link:lnk4,
+        img:img4,
         name: "Retro Inspired Product",
         
     },
     {
-        img:"https://framerusercontent.com/images/J9LjAN1cLt2hbRm1CX1IlnMRdQ8.jpg?scale-down-to=512",
-        name: "Buzzfeed",
+        link:lnk5,
+        img:img5,
+        name: "Rendrely",
        
     },
     {
-        img:"https://framerusercontent.com/images/3mK1oGtWk5jUdBWnaTbkRIbiDk.jpg?scale-down-to=512",
+        link:"https://careindiawelfaretrust.org/",
+        img:img6,
         name: "Retro Inspired Product",
         
     },
-    {
-        img:"https://framerusercontent.com/images/J9LjAN1cLt2hbRm1CX1IlnMRdQ8.jpg?scale-down-to=512",
-        name: "Buzzfeed",
-       
-    },
-    {
-        img:"https://framerusercontent.com/images/NaKqa7E3Y0r8TqlpTkFmsSgoCk.jpg?scale-down-to=512",
-        name: "Retro Inspired Product",
-      
-    },
-    {
-        img:"https://framerusercontent.com/images/LdKZ4wZnD9wtqPY8N1IlFcWGTs.jpg?scale-down-to=512",
-        name: "Buzzfeed",
-      
-    },
-    {
-        img:"https://framerusercontent.com/images/KEJyaIxQVH9LCyqzSgXSwEoMHE.jpg?scale-down-to=512",
-        name: "Retro Inspired Product",
-        
-    },
-    {
-        img:"https://framerusercontent.com/images/J9LjAN1cLt2hbRm1CX1IlnMRdQ8.jpg?scale-down-to=512",
-        name: "Buzzfeed",
-       
-    },
-    {
-        img:"https://framerusercontent.com/images/3mK1oGtWk5jUdBWnaTbkRIbiDk.jpg?scale-down-to=512",
-        name: "Retro Inspired Product",
-        
-    },
+    
+    
+  
     
 ]

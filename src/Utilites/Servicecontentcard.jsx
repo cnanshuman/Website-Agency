@@ -15,10 +15,10 @@ function Servicecontentcard({ item, index }) {
             <div className="rgt max-sm:hidden w-fit outline-0">
               <div className=" bg-[#55d0ff]  ">
                 <Link
-                  to="/Contact"
+                  to={item.lnk}
                   className=" flex items-center text-white gap-2 btn  font-normal bg-[#1b1b1b] group  p-2  pr-6.5 get-in-touch-button relative  border border-neutral-700  transition-all duration-200 ease-in text-lg hover:text-black overflow-hidden z-10 "
                 >
-                  Contact Us{" "}
+                 Explore Now{" "}
                   <GoArrowUpRight className="w-[18px] h-[18px] rotate-0" />
                 </Link>
               </div>

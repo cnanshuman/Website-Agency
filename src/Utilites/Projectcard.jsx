@@ -6,7 +6,7 @@ function Projectcard({ item, index }) {
     <>
 
       <li className="hover:bg-[#e1e1e1] group md:w-6/13 lg:w-8/25 max-sm:w-full   [&:nth-child(3n+3)]:mr-0 rounded-2xl">
-        <a href="#">
+        <a href={item.link} target='blank'>
           <div className="img mb-6 overflow-hidden rounded-2xl group-hover:rounded-b-none">
             <img
               src={item.img}
